@@ -2,7 +2,7 @@ import { Button } from "antd"
 
 export default function Navbar() {
     return(
-        <nav className="sticky top-0 flex justify-between content-center backdrop-blur-3xl rounded-b-md">
+        <nav className="z-50 sticky top-0 flex justify-between content-center backdrop-blur-3xl rounded-b-md">
             <div className="m-2">
                 <img src="fear-light.svg" alt="" className="max-h-10" />
             </div>
