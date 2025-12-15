@@ -7,9 +7,9 @@ export default function ConnectCard() {
             <div className='flex flex-col items-center'>
                 <Avatar size={200} src='photo.jpeg' shape='square' draggable='false' />
                 <div className='flex gap-3 mt-3'>
-                    <Button><LinkedinFilled style={{ color: "#0072b1" }} /></Button>
-                    <Button><GithubFilled style={{ color: "black" }} /></Button>
-                    <Button><YoutubeFilled style={{ color: "#b2071d" }} /></Button>
+                    <Button href='https://www.linkedin.com/in/elmiraras/' target='_blank'><LinkedinFilled style={{ color: "#0072b1" }} /></Button>
+                    <Button href='https://github.com/FearQuare' target='_blank'><GithubFilled style={{ color: "black" }} /></Button>
+                    <Button href='https://www.youtube.com/@fearquare' target='_blank'><YoutubeFilled style={{ color: "#b2071d" }} /></Button>
                 </div>
             </div>
         </Card>
