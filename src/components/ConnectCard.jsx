@@ -3,7 +3,7 @@ import { LinkedinFilled, GithubFilled, YoutubeFilled } from '@ant-design/icons';
 
 export default function ConnectCard() {
     return (
-        <Card title={<span className='text-blue-600'>Let's Connect!</span>} className='max-w-65 shadow-xl'>
+        <Card title={<span className='text-blue-600'>Let's Connect!</span>} className='shadow-xl w-64'>
             <div className='flex flex-col items-center'>
                 <Avatar size={200} src='photo.jpeg' shape='square' draggable='false' />
                 <div className='flex gap-3 mt-3'>

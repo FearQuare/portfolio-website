@@ -1,16 +1,20 @@
 import About from "./components/About"
 import ConnectCard from "./components/ConnectCard"
 import Education from "./components/Education"
+import Skills from "./components/Skills"
 
 export default function App() {
   return (
-    <div className='m-2 flex divide-dashed'>
-      <div className='flex flex-col align-center max-w-80 h-full'>
+    <div className='flex flex-wrap min-h-screen'>
+      <div className='flex flex-col items-center w-[20%] min-h-screen'>
         <ConnectCard />
       </div>
-      <div className="flex flex-wrap border-solid ml-3 mt-3 border-l border-slate-300">
+      <div className="flex flex-wrap border-solid border-l border-slate-300 w-[80%] gap-5">
         <About />
         <Education />
+      </div>
+      <div className="w-full">
+        <Skills />
       </div>
     </div>
   )

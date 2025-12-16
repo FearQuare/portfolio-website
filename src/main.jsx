@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='flex flex-col bg-slate-100'>
+    <div className='flex flex-col bg-slate-100 w-screen'>
       <Navbar/>
       <App />
     </div>
