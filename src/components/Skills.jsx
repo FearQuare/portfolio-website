@@ -4,7 +4,7 @@ import ProgressCard from "./ProgressCard"
 
 export default function Skills() {
     return(
-        <div id="skills" className="flex flex-wrap flex-col text-slate-700 mt-5 w-10/10 scroll-mt-24 bg-linear-to-b from-slate-100 to-violet-600">
+        <div id="skills" className="flex flex-wrap flex-col text-slate-700 mt-5 w-10/10 scroll-mt-24 bg-linear-to-b from-slate-100 to-violet-400">
             <h1 className="text-2xl mb-3 mt-3 w-full text-blue-600 text-center">Skills</h1>
             <Divider titlePlacement="center">Programming Languages / Markup Languages</Divider>
             <div className="flex flex-wrap w-full justify-center mt-2 gap-3">

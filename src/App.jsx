@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Certificates from "./components/Certificates"
 import ConnectCard from "./components/ConnectCard"
 import Education from "./components/Education"
 import Skills from "./components/Skills"
@@ -15,6 +16,7 @@ export default function App() {
       </div>
       <div className="w-full">
         <Skills />
+        <Certificates />
       </div>
     </div>
   )
