@@ -16,6 +16,13 @@ export default function Education() {
                                         <p>08/2020 - 07/2024</p>
                                         <p className="italic">BSc in Software Engineering</p>
                                         <p className="text-slate-900 font-bold">İzmir University of Economics</p>
+                                        <ul className="ml-8 list-disc w-4/5">
+                                            <li>Graduated 8th/64 with 3.30 GPA</li>
+                                            <li>
+                                                I ranked 19,176th out of 2.5 million participants in the university entrance
+                                                exam, placing in the top 1% and securing a 100% ÖSYS Scholarship.
+                                            </li>
+                                        </ul>
                                     </div>
                             },
                             {

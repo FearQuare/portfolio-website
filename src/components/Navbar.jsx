@@ -16,6 +16,7 @@ export default function Navbar() {
             <div className="m-2">
                 <Button variant="text" color="geekblue" onClick={() => scrollToSection('about')}>About</Button>
                 <Button variant="text" color="geekblue" onClick={() => scrollToSection('education')}>Education</Button>
+                <Button variant="text" color="geekblue" onClick={() => scrollToSection('work')}>Work Experience</Button>
                 <Button variant="text" color="geekblue" onClick={() => scrollToSection('volunteering')}>Volunteering</Button>
                 <Button variant="text" color="geekblue" onClick={() => scrollToSection('skills')}>Skills</Button>
                 <Button variant="text" color="geekblue" onClick={() => scrollToSection('certificates')}>Certificates</Button>

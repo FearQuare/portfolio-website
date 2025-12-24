@@ -3,6 +3,7 @@ import Certificates from "./components/Certificates"
 import ConnectCard from "./components/ConnectCard"
 import Education from "./components/Education"
 import Skills from "./components/Skills"
+import WorkExperience from "./components/WorkExperience"
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
         <About />
         <Education />
       </div>
-      <div className="w-full">
+      <div className="w-full mb-10">
+        <WorkExperience />
         <Skills />
         <Certificates />
       </div>
