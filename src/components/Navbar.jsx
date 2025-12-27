@@ -1,12 +1,32 @@
-import { Button } from "antd"
+import { Button, Dropdown, Space } from "antd"
+// eslint-disable-next-line no-unused-vars
 import { motion, useScroll } from "motion/react"
-
+import { MenuOutlined } from "@ant-design/icons"
+ 
 const scrollToSection = (id) => {
     const el = document.getElementById(id)
     if (el) {
         el.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
 }
+
+const navLinks = [
+    { id: 'about', label: 'About' },
+    { id: 'education', label: 'Education' },
+    { id: 'volunteering', label: 'Volunteering' },
+    { id: 'work', label: 'Work Experience' },
+    { id: 'skills', label: 'Skills' },
+    { id: 'certificates', label: 'Certificates' },
+];
+
+const items = navLinks.map((link, index) => ({
+    key: String(index + 1),
+    label: (
+        <Button variant="text" color="geekblue" onClick={() => scrollToSection(link.id)}>
+            {link.label}
+        </Button>
+    ),
+}));
 
 export default function Navbar() {
     const { scrollYProgress } = useScroll()
@@ -30,13 +50,19 @@ export default function Navbar() {
                 <div className="m-2">
                     <img src="fear-light.svg" alt="" className="max-h-10" />
                 </div>
-                <div className="m-2">
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('about')}>About</Button>
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('education')}>Education</Button>
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('volunteering')}>Volunteering</Button>
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('work')}>Work Experience</Button>
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('skills')}>Skills</Button>
-                    <Button variant="text" color="geekblue" onClick={() => scrollToSection('certificates')}>Certificates</Button>
+                <div className="hidden md:block m-2">
+                    {navLinks.map(link => (
+                        <Button key={link.id} variant="text" color="geekblue" onClick={() => scrollToSection(link.id)}>{link.label}</Button>
+                    ))}
+                </div>
+                <div className="hidden max-md:block m-2 mr-10 text-blue-600">
+                    <Dropdown menu={{ items }}>
+                        <a onClick={e => e.preventDefault()}>
+                            <Space>
+                                <MenuOutlined />
+                            </Space>
+                        </a>
+                    </Dropdown>
                 </div>
             </nav>
         </>
