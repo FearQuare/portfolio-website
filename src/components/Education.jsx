@@ -4,8 +4,8 @@ export default function Education() {
     return (
         <section id="education" className="flex flex-wrap text-slate-600 scroll-mt-24 ml-10 w-full">
             <h1 className="text-2xl text-blue-600 w-full">Education & Volunteering</h1>
-            <div className="flex justify-between w-full">
-                <div className="w-1/2 mt-3">
+            <div className="flex justify-between w-full flex-wrap">
+                <div className="w-full lg:w-1/2 mt-3">
                     <h2>Education</h2>
                     <Timeline
                         mode="start"
@@ -43,7 +43,7 @@ export default function Education() {
                         ]}
                     />
                 </div>
-                <div id="volunteering" className="w-1/2 scroll-mt-24 mt-3">
+                <div id="volunteering" className="w-full lg:w-1/2 scroll-mt-24 mt-3">
                     <h2>Volunteering</h2>
                     <Timeline
                         mode="start"
