@@ -72,7 +72,7 @@ export default function WorkExperience() {
                         {
                             content: (
                                 <div className="pb-4">
-                                    <p className="font-semibold text-gray-500">03/2024 - 05/2024</p>
+                                    <p className="font-semibold text-gray-500">08/2023 - 10/2023</p>
                                     <h1 className="font-bold">ASELSAN</h1>
                                     <h2 className="font-semibold">Intern Software Engineer</h2>
                                     <ul className="list-disc ml-5 mt-2 w-full md:w-4/5">
