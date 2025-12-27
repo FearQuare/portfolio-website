@@ -21,7 +21,7 @@ export default function WorkExperience() {
                                         </li>
                                         <li>
                                             Diagnose and resolve production issues by analyzing logs (ELK Stack), debugging workflows,
-                                            andvalidating fices in test environments.
+                                            and validating fixes in test environments.
                                         </li>
                                         <li>
                                             Implement small-scale feature enhancements and system optimizations using .NET Framework,
@@ -55,10 +55,6 @@ export default function WorkExperience() {
                                             repetitive QA cycles.
                                         </li>
                                         <li>
-                                            Implement small-scale feature enhancements and system optimizations using .NET Framework,
-                                            C#, SQL, REST APIs, Scala, and internal microservice components.
-                                        </li>
-                                        <li>
                                             Wrote beginner-level login and registration page using C# scripts in .NET Framework for minor
                                             application tasks, gaining familiarity with backend logic and debugging processes.
                                         </li>
@@ -77,7 +73,7 @@ export default function WorkExperience() {
                                     <h2 className="font-semibold">Intern Software Engineer</h2>
                                     <ul className="list-disc ml-5 mt-2 w-full md:w-4/5">
                                         <li>
-                                            Developed automated test scripts using Selenium WebDriver (Python) to validate interal defense-related
+                                            Developed automated test scripts using Selenium WebDriver (Python) to validate internal defense-related
                                             software systems.
                                         </li>
                                         <li>
