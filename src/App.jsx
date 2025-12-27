@@ -7,16 +7,19 @@ import WorkExperience from "./components/WorkExperience"
 
 export default function App() {
   return (
-    <div className='flex flex-wrap min-h-screen'>
-      <div className='flex flex-col items-center w-[20%] min-h-screen'>
+    <div className='flex flex-wrap'>
+      <div className='hidden xl:flex flex-col items-center w-[20%] border-r border-slate-300'>
         <ConnectCard />
       </div>
-      <div className="flex flex-wrap border-solid border-l border-slate-300 w-[80%] gap-5">
+      <div className="flex flex-wrap border-solid w-[80%] max-xl:w-full gap-5">
         <About />
+        <div className="hidden max-xl:flex w-full justify-center bg-[url(/public/banner.svg)] rounded-2xl m-2 p-2">
+          <ConnectCard />
+        </div>
         <Education />
+        <WorkExperience />
       </div>
       <div className="w-full mb-10">
-        <WorkExperience />
         <Skills />
         <Certificates />
       </div>
