@@ -15,7 +15,7 @@ export default function Education() {
                                     <div className="">
                                         <p>08/2020 - 07/2024</p>
                                         <p className="italic">BSc in Software Engineering</p>
-                                        <p className="text-slate-900 font-bold">İzmir University of Economics</p>
+                                        <p className="text-slate-900 font-bold">Izmir University of Economics</p>
                                         <ul className="ml-8 list-disc w-4/5">
                                             <li>Graduated 8th/64 with 3.30 GPA</li>
                                             <li>
@@ -30,14 +30,14 @@ export default function Education() {
                                     <div className="">
                                         <p>06/2018 - 06/2019</p>
                                         <p className="italic">Highschool Diploma</p>
-                                        <p className="text-slate-900 font-bold">Evre Private Science Highschool</p>
+                                        <p className="text-slate-900 font-bold">Evre Private Science High School</p>
                                     </div>
                             },
                             {
                                 content:
                                     <div>
                                         <p>06/2015 - 06/2018</p>
-                                        <p className="text-slate-900 font-bold">İçel Anatolian Highschool</p>
+                                        <p className="text-slate-900 font-bold">Içel Anatolian High School</p>
                                     </div>
                             }
                         ]}
